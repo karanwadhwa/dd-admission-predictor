@@ -7,7 +7,7 @@ $sql = "SELECT * FROM users WHERE username='$username' AND password='$password'"
 $result = mysqli_query($conn, $sql);
 
 if(!$row=mysqli_fetch_assoc($result)){
-  echo "Invalid Username or Password!<br>";
+  die('Invalid Username or Password!<br><br>');
 }
 
 else{

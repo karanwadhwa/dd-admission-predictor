@@ -18,7 +18,6 @@ echo "HSC: " . $hsc . "<br>";
 echo "JEE: " . $jee . "<br>";
 echo "Stream Selected: " . $stream . "<br>";
 */
-$q = "INSERT INTO users(fname) VALUES('karan')";
 $sql = "INSERT INTO users (fname, lname, username, password, sex, hsc, jee, stream)
 VALUES ('$fname', '$lname', '$username', '$password', '$sex', '$hsc', '$jee', '$stream')";
 $result = mysqli_query($conn , $sql);
