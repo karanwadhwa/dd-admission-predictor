@@ -1,15 +1,56 @@
-<html>
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head align="center">ADMIN LOGIN</head>
+    <title>Admin Login</title>
 
-<body align ="center"><br><br><br>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
 
-<form action="adminlogin.php" method="POST">
-<input type="text" name="admin_username" placeholder="Admin Username"><br><br>
-<input type="password" name="admin_password" placeholder="Password"><br><br>
-<button type="submit">LOGIN</button>
+    <div align="right" style="padding: 10px">
+      <a href="login.html" class="btn btn-default">User Login</a>
+      <a href="adminlogin.html" class="btn btn-success">Admin Login</a>
+      <a href="register.html" class="btn btn-default">Register</a>
+    </div>
+
+<body align="center">
+  <form action="adminlogin.php" method="POST">
+  <div class="container container-login centre" >
+  <div  class="well" style="width:350px; " >
+    <h3>Admin Login<h3>
+      <br><br>
+      <div class="input-group">
+        <span class="input-group-addon " id="username-addon">@</span>
+        <input type="text" class="form-control" name="admin_username" placeholder="Admin Username" aria-describedby="username-addon">
+      </div>
+      <br><br>
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+        <input type="password" class="form-control" name="admin_password" placeholder="Password" aria-describedby="password-addon">
+      </div>
+      <br><br>
+      <button type="submit" class="btn btn-success">LOGIN</button>
+
+    </div>
+  </div>
+
 </form>
 
 </body>
-</html>
+
+
+
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+    </body>
+  </html>

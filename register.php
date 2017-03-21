@@ -21,4 +21,6 @@ echo "Stream Selected: " . $stream . "<br>";
 $sql = "INSERT INTO users (fname, lname, username, password, sex, hsc, jee, stream)
 VALUES ('$fname', '$lname', '$username', '$password', '$sex', '$hsc', '$jee', '$stream')";
 $result = mysqli_query($conn , $sql);
+
 header("Location: login.html");
+?>
