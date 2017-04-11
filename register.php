@@ -8,7 +8,7 @@ $password = $_POST['password'];
 $sex = $_POST['sex'];
 $hsc = $_POST['hsc'];
 $jee = $_POST['jee'];
-$stream = $_POST['stream'];
+
 /*
 echo "Name: " . $fname . "  " . $lname . "<br>";
 echo "Username: " . $username . "<br>";
@@ -18,8 +18,8 @@ echo "HSC: " . $hsc . "<br>";
 echo "JEE: " . $jee . "<br>";
 echo "Stream Selected: " . $stream . "<br>";
 */
-$sql = "INSERT INTO users (fname, lname, username, password, sex, hsc, jee, stream)
-VALUES ('$fname', '$lname', '$username', '$password', '$sex', '$hsc', '$jee', '$stream')";
+$sql = "INSERT INTO users (fname, lname, username, password, sex, hsc, jee)
+VALUES ('$fname', '$lname', '$username', '$password', '$sex', '$hsc', '$jee')";
 $result = mysqli_query($conn , $sql);
 
 header("Location: login.html");

@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '', 'mech');
+$conn = mysqli_connect('localhost', 'root', 'wadhwa127', 'mech');
 
 if(!$conn){
  die('Connection Failed: ' . mysqli_connect_error());
