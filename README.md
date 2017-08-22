@@ -8,7 +8,7 @@ The purpose of it is to build a system to predict the users chances for getting 
 The basic idea behind it was to cross reference the users entered grades with the average of the past 3or5 years cut-off lists of the      colleges and based on that display the colleges with avg. cut-off list marks less than the users acquired grades.
 
 # Implemented Idea:
-Since it was a college project we werent required to implement the entire project in such an elaborate way and our professor was very flexible with its scope and usecase we chose to directly enter a few random colleges with their cut-off lists instead of entering past 3or5 years lists and then calculating the average. So the system essentially just displays a list ofcolleges the user is eligible to apply to and doesnt really work as a "predictor".  
+Since it was a college project we werent required to implement the entire project in such an elaborate way and our professor was very flexible with its scope and usecase, I chose to directly enter a few random colleges with their cut-off lists instead of entering past 3or5 years lists and then calculating the average. So the system essentially just displays a list ofcolleges the user is eligible to apply to and doesnt really work as a "predictor".  
 
 # Working:
 This is how the system would work:
