@@ -19,6 +19,3 @@ This is how the system would work:
 
 # misc.
 -> the databases required are present in the DATABASES/ folder.<br>
--> if i get too lazy and upload the databases without removing the existing data please ignore it and do it yourself.<br>
--> at this point im just wondering why am i filling out this readme file at 3am for a project that probably nobodys going to use.<br>
--> anyway if you have any doubts or queries about it feel free to hit me up @wadhwa.karan96@gmail.com
